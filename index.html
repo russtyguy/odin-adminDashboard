@@ -6,22 +6,16 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
-    <header class="header">
-      <div class="search_block">
-        <img src="" alt="" class="search_icon" />
-        <div class="search_bar"></div>
-        <img src="" alt="" class="bell_icon" />
-        <div class="profile">
-          <img src="" alt="" class="profile_icon" />
-          <p class="profile_name"></p>
-        </div>
-      </div>
-      <div class="functions_block"></div>
-    </header>
-
+  <body class="grid">
     <div class="sidebar">
-      <div class="logo"></div>
+      <div class="sidebar_logoblock">
+        <img
+          src="view-dashboard.svg"
+          alt="dashboard logo"
+          class="sidebar_logo"
+        />
+        <p>Dashboard</p>
+      </div>
       <nav class="nav_menu">
         <ul class="nav__list">
           <li>Home</li>
@@ -42,108 +36,161 @@
     </div>
 
     <main class="content">
-      <section class="projects">
-        <h2 class="projects_title">Your Projects</h2>
-        <div class="project_card">
-          <h3 class="project_title">PROJ</h3>
-          <p class="project_text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ex ullam
-            vero sunt consectetur, autem explicabo pariatur harum architecto
-            molestiae quis, dolorem at quidem in cumque odio neque sapiente aut
-            magni distinctio, veniam repudiandae necessitatibus eos incidunt.
-            Reprehenderit, sint? Molestiae nam aliquam rem maxime cupiditate
-            doloribus vel magnam voluptate obcaecati, officia nostrum quasi
-            vero! Ut?
-          </p>
+      <header class="header">
+        <div class="search_block">
+          <div class="searchbar_block">
+            <img src="magnify.svg" alt="" class="search_icon" />
+            <input type="text" class="search_bar" />
+          </div>
+          <div class="user_block">
+            <img src="bell-ring-outline.svg" alt="" class="bell_icon" />
+            <img src="face-man-profile.svg" alt="" class="profile_icon" />
+            <p class="profile_name">Kekaceka</p>
+          </div>
         </div>
-        <div class="project_card">
-          <h3 class="project_title">PROJ</h3>
-          <p class="project_text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ex ullam
-            vero sunt consectetur, autem explicabo pariatur harum architecto
-            molestiae quis, dolorem at quidem in cumque odio neque sapiente aut
-            magni distinctio, veniam repudiandae necessitatibus eos incidunt.
-            Reprehenderit, sint? Molestiae nam aliquam rem maxime cupiditate
-            doloribus vel magnam voluptate obcaecati, officia nostrum quasi
-            vero! Ut?
-          </p>
+        <div class="functions_block">
+          <div class="functions_prof">
+            <img src="face-man-profile.svg" alt="" class="profile" />
+            <div class="functrions_text">
+              <p>Hi there!</p>
+              <h4>KEKACEKA @CEKUS</h4>
+            </div>
+          </div>
+          <div class="functions_buttons">
+            <button type="button" class="func_button">New</button
+            ><button type="button" class="func_button">Upload</button
+            ><button type="button" class="func_button">Share</button>
+          </div>
         </div>
-        <div class="project_card">
-          <h3 class="project_title">PROJ</h3>
-          <p class="project_text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ex ullam
-            vero sunt consectetur, autem explicabo pariatur harum architecto
-            molestiae quis, dolorem at quidem in cumque odio neque sapiente aut
-            magni distinctio, veniam repudiandae necessitatibus eos incidunt.
-            Reprehenderit, sint? Molestiae nam aliquam rem maxime cupiditate
-            doloribus vel magnam voluptate obcaecati, officia nostrum quasi
-            vero! Ut?
-          </p>
+      </header>
+
+      <div class="content_block">
+        <section class="projects">
+          <h2 class="projects_title">Your Projects</h2>
+          <div class="projects_cards">
+            <div class="project_card">
+              <h3 class="project_title">PROJ</h3>
+              <p class="project_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ex
+                ullam vero sunt consectetur, autem explicabo pariatur harum
+                architecto molestiae quis, dolorem at quidem in cumque odio
+                neque sapiente aut magni distinctio, veniam repudiandae
+                necessitatibus eos incidunt. Reprehenderit, sint? Molestiae nam
+                aliquam rem maxime cupiditate doloribus vel magnam voluptate
+                obcaecati, officia nostrum quasi vero! Ut?
+              </p>
+            </div>
+            <div class="project_card">
+              <h3 class="project_title">PROJ</h3>
+              <p class="project_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ex
+                ullam vero sunt consectetur, autem explicabo pariatur harum
+                architecto molestiae quis, dolorem at quidem in cumque odio
+                neque sapiente aut magni distinctio, veniam repudiandae
+                necessitatibus eos incidunt. Reprehenderit, sint? Molestiae nam
+                aliquam rem maxime cupiditate doloribus vel magnam voluptate
+                obcaecati, officia nostrum quasi vero! Ut?
+              </p>
+            </div>
+            <div class="project_card">
+              <h3 class="project_title">PROJ</h3>
+              <p class="project_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ex
+                ullam vero sunt consectetur, autem explicabo pariatur harum
+                architecto molestiae quis, dolorem at quidem in cumque odio
+                neque sapiente aut magni distinctio, veniam repudiandae
+                necessitatibus eos incidunt. Reprehenderit, sint? Molestiae nam
+                aliquam rem maxime cupiditate doloribus vel magnam voluptate
+                obcaecati, officia nostrum quasi vero! Ut?
+              </p>
+            </div>
+            <div class="project_card">
+              <h3 class="project_title">PROJ</h3>
+              <p class="project_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ex
+                ullam vero sunt consectetur, autem explicabo pariatur harum
+                architecto molestiae quis, dolorem at quidem in cumque odio
+                neque sapiente aut magni distinctio, veniam repudiandae
+                necessitatibus eos incidunt. Reprehenderit, sint? Molestiae nam
+                aliquam rem maxime cupiditate doloribus vel magnam voluptate
+                obcaecati, officia nostrum quasi vero! Ut?
+              </p>
+            </div>
+            <div class="project_card">
+              <h3 class="project_title">PROJ</h3>
+              <p class="project_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ex
+                ullam vero sunt consectetur, autem explicabo pariatur harum
+                architecto molestiae quis, dolorem at quidem in cumque odio
+                neque sapiente aut magni distinctio, veniam repudiandae
+                necessitatibus eos incidunt. Reprehenderit, sint? Molestiae nam
+                aliquam rem maxime cupiditate doloribus vel magnam voluptate
+                obcaecati, officia nostrum quasi vero! Ut?
+              </p>
+            </div>
+            <div class="project_card">
+              <h3 class="project_title">PROJ</h3>
+              <p class="project_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ex
+                ullam vero sunt consectetur, autem explicabo pariatur harum
+                architecto molestiae quis, dolorem at quidem in cumque odio
+                neque sapiente aut magni distinctio, veniam repudiandae
+                necessitatibus eos incidunt. Reprehenderit, sint? Molestiae nam
+                aliquam rem maxime cupiditate doloribus vel magnam voluptate
+                obcaecati, officia nostrum quasi vero! Ut?
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <div class="right_sidebar">
+          <h3 class="announces_title">Announcements</h3>
+          <section class="announce">
+            <div class="announce_card">
+              <h4 class="announce_title">ANNOUNCE</h4>
+              <p class="announce_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                rerum cum explicabo blanditiis magnam totam ab libero
+                voluptatibus doloribus ex!
+              </p>
+            </div>
+            <div class="announce_card">
+              <h4 class="announce_title">ANNOUNCE</h4>
+              <p class="announce_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                rerum cum explicabo blanditiis magnam totam ab libero
+                voluptatibus doloribus ex!
+              </p>
+            </div>
+            <div class="announce_card">
+              <h4 class="announce_title">ANNOUNCE</h4>
+              <p class="announce_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                rerum cum explicabo blanditiis magnam totam ab libero
+                voluptatibus doloribus ex!
+              </p>
+            </div>
+          </section>
+
+          <section class="trending">
+            <h4 class="trending_title">Trending</h4>
+            <div class="trending_cards">
+              <div class="trending_card">
+                <img src="face-man-profile.svg" alt="" class="trending_icon" />
+                <p class="trending_text">@nickname</p>
+              </div>
+              <div class="trending_card">
+                <img src="face-man-profile.svg" alt="" class="trending_icon" />
+                <p class="trending_text">@nickname</p>
+              </div>
+              <div class="trending_card">
+                <img src="face-man-profile.svg" alt="" class="trending_icon" />
+                <p class="trending_text">@nickname</p>
+              </div>
+            </div>
+          </section>
         </div>
-        <div class="project_card">
-          <h3 class="project_title">PROJ</h3>
-          <p class="project_text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ex ullam
-            vero sunt consectetur, autem explicabo pariatur harum architecto
-            molestiae quis, dolorem at quidem in cumque odio neque sapiente aut
-            magni distinctio, veniam repudiandae necessitatibus eos incidunt.
-            Reprehenderit, sint? Molestiae nam aliquam rem maxime cupiditate
-            doloribus vel magnam voluptate obcaecati, officia nostrum quasi
-            vero! Ut?
-          </p>
-        </div>
-        <div class="project_card">
-          <h3 class="project_title">PROJ</h3>
-          <p class="project_text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ex ullam
-            vero sunt consectetur, autem explicabo pariatur harum architecto
-            molestiae quis, dolorem at quidem in cumque odio neque sapiente aut
-            magni distinctio, veniam repudiandae necessitatibus eos incidunt.
-            Reprehenderit, sint? Molestiae nam aliquam rem maxime cupiditate
-            doloribus vel magnam voluptate obcaecati, officia nostrum quasi
-            vero! Ut?
-          </p>
-        </div>
-        <div class="project_card">
-          <h3 class="project_title">PROJ</h3>
-          <p class="project_text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ex ullam
-            vero sunt consectetur, autem explicabo pariatur harum architecto
-            molestiae quis, dolorem at quidem in cumque odio neque sapiente aut
-            magni distinctio, veniam repudiandae necessitatibus eos incidunt.
-            Reprehenderit, sint? Molestiae nam aliquam rem maxime cupiditate
-            doloribus vel magnam voluptate obcaecati, officia nostrum quasi
-            vero! Ut?
-          </p>
-        </div>
-      </section>
-      <section class="announce">
-        <div class="announce_card">
-          <h4 class="announce_title">ANNOUNCE</h4>
-          <p class="announce_text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque rerum
-            cum explicabo blanditiis magnam totam ab libero voluptatibus
-            doloribus ex!
-          </p>
-        </div>
-        <div class="announce_card">
-          <h4 class="announce_title">ANNOUNCE</h4>
-          <p class="announce_text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque rerum
-            cum explicabo blanditiis magnam totam ab libero voluptatibus
-            doloribus ex!
-          </p>
-        </div>
-        <div class="announce_card">
-          <h4 class="announce_title">ANNOUNCE</h4>
-          <p class="announce_text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque rerum
-            cum explicabo blanditiis magnam totam ab libero voluptatibus
-            doloribus ex!
-          </p>
-        </div>
-      </section>
-      <section class="trending"></section>
+      </div>
     </main>
   </body>
 </html>
